@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>SegundaTela</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abhaya+Libre">
+    
+    <style>
+      body {
+        background-image: url("backgroud.png");
+        background-size: cover;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 67px;
+        background: rgba(0, 0, 0, 0.6);
+        border-radius: 0;
+        z-index: -1;
+      }
+      menu
+      {
+        position: absolute;
+        height: 27px;
+        float:right;
+        /*transform: translateX(-50%);*/
+        top: 0px;
+        width: 800%;
+        z-index: 99;
+}
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+}
+
+    ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    li {
+      list-style: none;
+      margin: 0 10px;
+    }
+
+    a {
+      font-family: 'Abhaya Libre';
+      font-style: normal;
+      font-weight: 200;
+      font-size: 30px;
+      line-height: 27px;
+      text-align: right;
+      color: #f1f1f1;
+    }
+
+    a:hover {
+      color: #000;
+    }
+
+      /* Botão "Teste" */
+      .button {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 16px 33px;
+        gap: 10px;
+        position: absolute;
+        width: 260px;
+        height: 52px;
+        left: calc(50% - 260px/2 - 114px);
+        top: calc(50% - 52px/2 + 185px);
+        background: linear-gradient(98.88deg, #8C01FA -2.99%, #000000 102.28%);
+        border: 1px solid #000000;
+        border-radius: 36px;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        color: #FFFFFF;
+      }
+      /* Botão "dicas" */
+      .button2 {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 16px 33px;
+        gap: 10px;
+        position: absolute;
+        width: 260px;
+        height: 52px;
+        left: calc(71% - 260px/2 - 114px);
+        top: calc(50% - 52px/2 + 185px);
+        background: linear-gradient(98.88deg, #8C01FA -2.99%, #000000 102.28%);
+        border: 1px solid #000000;
+        border-radius: 36px;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        color: #FFFFFF;
+      }
+      .center-text {
+        /* A melhor maneira de ter */
+        position: absolute;
+        width: 777px;
+        height: 76px;
+        left: calc(50% - 777px/2 + 0.5px);
+        top: 100px;
+        font-family: 'Abhaya Libre';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 29px;
+        line-height: 76px;
+        /* identical to box height, or 108% */
+        text-align: center;
+        letter-spacing: 0.68px;
+        color: #FFFFFF;
+        font-family: 'Abhaya Libre';
+      }
+      .infer-texte{
+        /* Uma ferramenta gratuita para que todos tenham a capacidade de se proteger. Segurança nunca é demais. */
+
+        position: absolute;
+        width: 589px;
+        height: 55px;
+        left: calc(50% - 589px/2 + 0.5px);
+        top: 388px;
+
+        font-family: 'Abhaya Libre';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 7px;
+        line-height: 27px;
+        /* or 130% */
+        text-align: center;
+
+        color: #FFFFFF;
+      }
+        </style>
+  </head>
+    <div class="button">
+        Teste de conhecimentos
+    </div>
+
+    <div class="button2">
+        Dicas 
+    </div>
+    <header></header>
+    <menu>
+        <nav>
+            <ul>
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Banco</a></li>
+            <li><a href="#">Notícias</a></li>
+            <li><a href="#">Suporte</a></li>
+            </ul>
+        </nav>          
+    </menu>
+    <div class="center-text">
+        <h1>A melhor maneira de ter<br/> mais segurança nos <br/>dias de hoje</h1>
+      </div>
+      <div class="infer-texte">
+        <h1> Uma ferramenta gratuita para que todos tenham a capacidade de se</br> proteger. Segurança nunca é demais.</h1>
+      </div>
+  </body>
+</html>
