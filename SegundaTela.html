@@ -14,25 +14,15 @@
         margin: 0;
         padding: 0;
       }
-      header {
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        height: 67px;
-        background: rgba(0, 0, 0, 0.6);
-        border-radius: 0;
-        z-index: -1;
-      }
-      menu
-      {
-        position: absolute;
-        height: 27px;
-        float:right;
-        /*transform: translateX(-50%);*/
-        top: 0px;
-        width: 800%;
-        z-index: 99;
+     
+      menu {
+      position: absolute;
+      height: 27px;
+      float: right;
+      top: 0px;
+      width: 26%;
+      z-index: 99;
+      right: 0;
 }
 
     nav {
@@ -70,6 +60,9 @@
     a:hover {
       color: #000;
     }
+      .logo { 
+      position: absolute;
+  }
 
       /* Botão "Teste" */
       .button {
@@ -77,7 +70,7 @@
         display: flex;
         flex-direction: row;
         align-items: flex-start;
-        padding: 16px 33px;
+        padding: 16px 17px;
         gap: 10px;
         position: absolute;
         width: 260px;
@@ -92,35 +85,35 @@
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
-        font-size: 12px;
-        line-height: 20px;
+        font-size: 15px;
+        line-height: 15px;
         color: #FFFFFF;
       }
-      /* Botão "dicas" */
-      .button2 {
+          /* Botão "dicas" */
+          .button2 {
         box-sizing: border-box;
         display: flex;
         flex-direction: row;
         align-items: flex-start;
-        padding: 16px 33px;
+        padding: 16px 28px;
         gap: 10px;
         position: absolute;
-        width: 260px;
-        height: 52px;
-        left: calc(71% - 260px/2 - 114px);
+        width: 114px;
+        height: 50px;
+        left: calc(71% - 236px/2 - 200px);
         top: calc(50% - 52px/2 + 185px);
         background: linear-gradient(98.88deg, #8C01FA -2.99%, #000000 102.28%);
         border: 1px solid #000000;
-        border-radius: 36px;
+        border-radius: 65px;
         text-align: center;
         text-transform: uppercase;
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
-        font-size: 12px;
+        font-size: 20px;
         line-height: 18px;
         color: #FFFFFF;
-      }
+    }
       .center-text {
         /* A melhor maneira de ter */
         position: absolute;
@@ -147,11 +140,10 @@
         height: 55px;
         left: calc(50% - 589px/2 + 0.5px);
         top: 388px;
-
         font-family: 'Abhaya Libre';
         font-style: normal;
         font-weight: 400;
-        font-size: 7px;
+        font-size: 15px;
         line-height: 27px;
         /* or 130% */
         text-align: center;
@@ -161,13 +153,15 @@
         </style>
   </head>
     <div class="button">
-        Teste de conhecimentos
+        Teste seus conhecimentos
     </div>
 
     <div class="button2">
         Dicas 
     </div>
+
     <header></header>
+
     <menu>
         <nav>
             <ul>
@@ -178,11 +172,20 @@
             </ul>
         </nav>          
     </menu>
+
+    <div class="Logo">
+      <video width="120" height="120" muted autoplay>
+        <source src="logo.mp4" type="video/mp4">
+        Seu navegador não suporta o elemento de vídeo.
+      </video>
+    </div> 
+
     <div class="center-text">
         <h1>A melhor maneira de ter<br/> mais segurança nos <br/>dias de hoje</h1>
       </div>
+
       <div class="infer-texte">
-        <h1> Uma ferramenta gratuita para que todos tenham a capacidade de se</br> proteger. Segurança nunca é demais.</h1>
+        <h1> Uma ferramenta gratuita para que todos tenham a capacidade de se proteger.</br> Segurança nunca é demais.</h1>
       </div>
   </body>
 </html>
