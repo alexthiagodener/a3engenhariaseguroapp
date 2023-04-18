@@ -4,164 +4,19 @@
     <meta charset="UTF-8">
     <title>SegundaTela</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abhaya+Libre">
-    
-    <style>
-      body {
-        background-image: url("backgroud.png");
-        background-size: cover;
-      }
-      body {
-        margin: 0;
-        padding: 0;
-      }
-     
-      menu {
-      position: absolute;
-      height: 27px;
-      float: right;
-      top: 0px;
-      width: 26%;
-      z-index: 99;
-      right: 0;
-}
+    <link rel="stylesheet" href="style.css">
 
-    nav {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        height: 100%;
-        width: 100%;
-}
-
-    ul {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100%;
-      margin: 0;
-      padding: 0;
-    }
-
-    li {
-      list-style: none;
-      margin: 0 10px;
-    }
-
-    a {
-      font-family: 'Abhaya Libre';
-      font-style: normal;
-      font-weight: 200;
-      font-size: 30px;
-      line-height: 27px;
-      text-align: right;
-      color: #f1f1f1;
-    }
-
-    a:hover {
-      color: #000;
-    }
-      .logo { 
-      position: absolute;
-  }
-
-      /* Botão "Teste" */
-      .button {
-        box-sizing: border-box;
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        padding: 16px 17px;
-        gap: 10px;
-        position: absolute;
-        width: 260px;
-        height: 52px;
-        left: calc(50% - 260px/2 - 114px);
-        top: calc(50% - 52px/2 + 185px);
-        background: linear-gradient(98.88deg, #8C01FA -2.99%, #000000 102.28%);
-        border: 1px solid #000000;
-        border-radius: 36px;
-        text-align: center;
-        text-transform: uppercase;
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 15px;
-        line-height: 15px;
-        color: #FFFFFF;
-      }
-          /* Botão "dicas" */
-          .button2 {
-        box-sizing: border-box;
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        padding: 16px 28px;
-        gap: 10px;
-        position: absolute;
-        width: 114px;
-        height: 50px;
-        left: calc(71% - 236px/2 - 200px);
-        top: calc(50% - 52px/2 + 185px);
-        background: linear-gradient(98.88deg, #8C01FA -2.99%, #000000 102.28%);
-        border: 1px solid #000000;
-        border-radius: 65px;
-        text-align: center;
-        text-transform: uppercase;
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 18px;
-        color: #FFFFFF;
-    }
-      .center-text {
-        /* A melhor maneira de ter */
-        position: absolute;
-        width: 777px;
-        height: 76px;
-        left: calc(50% - 777px/2 + 0.5px);
-        top: 100px;
-        font-family: 'Abhaya Libre';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 29px;
-        line-height: 76px;
-        /* identical to box height, or 108% */
-        text-align: center;
-        letter-spacing: 0.68px;
-        color: #FFFFFF;
-        font-family: 'Abhaya Libre';
-      }
-      .infer-texte{
-        /* Uma ferramenta gratuita para que todos tenham a capacidade de se proteger. Segurança nunca é demais. */
-
-        position: absolute;
-        width: 589px;
-        height: 55px;
-        left: calc(50% - 589px/2 + 0.5px);
-        top: 388px;
-        font-family: 'Abhaya Libre';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 15px;
-        line-height: 27px;
-        /* or 130% */
-        text-align: center;
-
-        color: #FFFFFF;
-      }
-        </style>
   </head>
-    <div class="button">
-        Teste seus conhecimentos
+  
+  <div class="cabeçalho">
+      <div class="Logo">
+        <video width="100" height="100" muted autoplay>
+          <source src="Design S Logotipo.mp4" type="video/mp4">
+          Seu navegador não suporta o elemento de vídeo.
+        </video>
+      </div> 
     </div>
-
-    <div class="button2">
-        Dicas 
-    </div>
-
-    <header></header>
-
+  
     <menu>
         <nav>
             <ul>
@@ -172,21 +27,25 @@
             </ul>
         </nav>          
     </menu>
+  </div>
 
-    <div class="Logo">
-      <video width="120" height="120" muted autoplay>
-        <source src="Design S Logotipo.mp4" type="video/mp4">
-        Seu navegador não suporta o elemento de vídeo.
-      </video>
-    </div> 
 
+  <div class="conteiner">
     <div class="center-text">
         <h1>A melhor maneira de ter<br/> mais segurança nos <br/>dias de hoje</h1>
       </div>
 
       <div class="infer-texte">
         <h1> Uma ferramenta gratuita para que todos tenham a capacidade de se proteger.</br> Segurança nunca é demais.</h1>
+      
       </div>
+      <a href="#" class="button">Teste seus conhecimentos</a>
+      <a href="#" class="button2">Dicas</a>
+      </div>
+
+      <div class="rodapé">
+
+      </div>
+
   </body>
 </html>
-
