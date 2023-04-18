@@ -1,9 +1,13 @@
 /*primeira tela*/
 body {
   background-image: url("backgroud.png");
-  background-size: cover;
+  background-size:cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  max-width: 1360px;
+  margin: 0;
+  padding: 0;
+
 }
 .content {
   text-align: center;
@@ -17,27 +21,18 @@ h1 {
   color: #fff;
   text-shadow: 2px 2px #000;
 }
-/*tela inicio*/
-body {
-    background-image: url("backgroud.png");
-    background-size: cover;
-  }
-  body {
-    margin: 0;
-    padding: 0;
-  }
- 
+.cabeçalho{
+  position: relative;
+  text-align: right;
+}
   menu {
   position: absolute;
-  top: 0;
-  right: -900px;
-  height: 50px;
-  float: right;
-  width: 100%;
   z-index: 2;
+  left: 900px;
+  top:0px;
   }
 
-nav {
+  nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -45,7 +40,7 @@ nav {
     width: 100%;
 }
 
-ul {
+  ul {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -54,12 +49,12 @@ ul {
   padding: 0;
 }
 
-li {
+  menu li {
   list-style: none;
   margin: 0 10px;
 }
 
-a {
+  a {
   font-family: 'Abhaya Libre';
   font-style: normal;
   font-weight: 200;
@@ -69,7 +64,7 @@ a {
   color: #f1f1f1;
 }
 
-a:hover {
+  a:hover {
   color: #000;
 }
   .logo { 
@@ -88,7 +83,7 @@ a:hover {
     position: absolute;
     width: 260px;
     height: 52px;
-    left: calc(50% - 260px/2 - 114px);
+    left: 500px;
     top: calc(50% - 52px/2 + 185px);
     background: linear-gradient(98.88deg, #8C01FA -2.99%, #000000 102.28%);
     border: 1px solid #000000;
@@ -114,9 +109,9 @@ a:hover {
         position: absolute;
         width: 100px;
         height: 52px;
-        left: calc(50% - -330px/2 - 114px);
+        left: 800px;
         top: calc(50% - 52px/2 + 185px);
-        background: linear-gradient(98.88deg, #8C01FA -2.99%, #000000 102.28%);
+        background:#000000;
         border: 1px solid #000000;
         border-radius: 36px;
         text-align: center;
@@ -140,6 +135,7 @@ a:hover {
     font-weight: 400;
     font-size: 19px;
     line-height: 76px;
+    
     /* identical to box height, or 108% */
     text-align: center;
     letter-spacing: 0.68px;
@@ -151,7 +147,7 @@ a:hover {
     position: absolute;
     width: 662px;
     height: 55px;
-    left: calc(50% - 589px/2 + 0.5px);
+    left: calc(50% - 677px/2 + 0.5px);
     top: 350px;
     font-family: 'Abhaya Libre';
     font-style: normal;
@@ -162,73 +158,3 @@ a:hover {
     text-align: center;
     color: #FFFFFF;
   }
-
-  /* Tamanho da tela menor que 768px */
-@media only screen and (max-width: 768px) {
-  .content {
-    padding: 20px;
-  }
-  
-  h1 {
-    font-size: 2em;
-  }
-  
-  .button {
-    width: 200px;
-    height: 40px;
-    font-size: 12px;
-  }
-  
-  .button2 {
-    width: 100px;
-    height: 40px;
-    font-size: 14px;
-  }
-  
-  .center-text {
-    width: 90%;
-    font-size: 24px;
-    line-height: 50px;
-  }
-  
-  .infer-texte{
-    width: 90%;
-    font-size: 12px;
-    line-height: 20px;
-  }
-}
-
-/* Tamanho da tela menor que 480px */
-@media only screen and (max-width: 480px) {
-  .content {
-    padding: 10px;
-  }
-  
-  h1 {
-    font-size: 1.5em;
-  }
-  
-  .button {
-    width: 150px;
-    height: 30px;
-    font-size: 10px;
-  }
-  
-  .button2 {
-    width: 80px;
-    height: 30px;
-    font-size: 12px;
-  }
-  
-  .center-text {
-    width: 100%;
-    font-size: 20px;
-    line-height: 40px;
-  }
-  
-  .infer-texte{
-    width: 100%;
-    font-size: 10px;
-    line-height: 18px;
-  }
-}
