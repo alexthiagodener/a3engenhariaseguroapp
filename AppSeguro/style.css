@@ -1,4 +1,10 @@
 /*primeira tela*/
+.Logo {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+}
 body {
   background-image: url("backgroud.png");
   background-size:cover;
@@ -67,62 +73,7 @@ h1 {
   a:hover {
   color: #000;
 }
-  .logo { 
-  position: absolute;
-}
 
-  /* Botão "Teste" */
-  .button {
-    cursor: pointer;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 16px 17px;
-    gap: 10px;
-    position: absolute;
-    width: 260px;
-    height: 52px;
-    left: 500px;
-    top: calc(50% - 52px/2 + 185px);
-    background: linear-gradient(98.88deg, #8C01FA -2.99%, #000000 102.28%);
-    border: 1px solid #000000;
-    border-radius: 36px;
-    text-align: center;
-    text-transform: uppercase;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 15px;
-    color: #FFFFFF;
-  }
-      /* Botão "dicas" */
-      .button2 {
-        cursor: pointer;
-        box-sizing: border-box;
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        padding: 16px 17px;
-        gap: 10px;
-        position: absolute;
-        width: 100px;
-        height: 52px;
-        left: 800px;
-        top: calc(50% - 52px/2 + 185px);
-        background:#000000;
-        border: 1px solid #000000;
-        border-radius: 36px;
-        text-align: center;
-        text-transform: uppercase;
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 15px;
-        line-height: 15px;
-        color: #FFFFFF;
-    }
      /* A melhor maneira de ter */
   .center-text {
     position: absolute;
@@ -158,3 +109,23 @@ h1 {
     text-align: center;
     color: #FFFFFF;
   }
+
+    /* Botão "Teste e botão Dicas */
+
+    a.button, a.button2 {
+      display: inline-block;
+      background-color: #007bff;
+      color: #fff;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 15px;
+      font-size: 18px;
+      font-weight: bold;
+      position: relative;
+      top: 500px;
+      left: 500px;
+
+    }
+    a.button:hover, a.button2:hover {
+      background-color: #0062cc;
+    }
