@@ -126,6 +126,21 @@ h1 {
       left: 500px;
 
     }
+
     a.button:hover, a.button2:hover {
       background-color: #0062cc;
+    }   
+
+    .rodapé {
+      position: relative;
+      bottom: 0;
+      left: 3px;
+      background-color: #333;
+      color: #fff;
+      padding: 0px;
+      font-size: 14px;
+      max-width: 1385px;
+      margin: 0;
+      top: 585px;
+      text-align: center;
     }
