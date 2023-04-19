@@ -34,7 +34,7 @@ h1 {
   menu {
   position: absolute;
   z-index: 2;
-  left: 900px;
+  left: 825px;
   top:0px;
   }
 
@@ -61,7 +61,7 @@ h1 {
 }
 
   a {
-  font-family: 'Abhaya Libre';
+  font-family: 'Verdana', sans-serif;
   font-style: normal;
   font-weight: 200;
   font-size: 30px;
@@ -81,7 +81,7 @@ h1 {
     height: 76px;
     left: calc(50% - 777px/2 + 0.5px);
     top: 100px;
-    font-family: 'Abhaya Libre';
+    font-family: 'Verdana', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 19px;
@@ -100,7 +100,7 @@ h1 {
     height: 55px;
     left: calc(50% - 677px/2 + 0.5px);
     top: 350px;
-    font-family: 'Abhaya Libre';
+    font-family: 'Verdana', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size:9px;
@@ -141,6 +141,6 @@ h1 {
       font-size: 14px;
       max-width: 1385px;
       margin: 0;
-      top: 535px;
+      top: 537px;
       text-align: center;
     }
