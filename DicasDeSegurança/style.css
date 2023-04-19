@@ -1,0 +1,50 @@
+body {
+  background: linear-gradient(90deg, #66c3d3, #a533b4);
+  text-align: center;
+}
+
+h1 {
+  color: #fff;
+  font-size: 36px;
+  margin-top: 50px;
+}
+
+ul {
+  margin-top: 50px;
+  list-style: none; /* remove as bolinhas dos tópicos */
+}
+
+/* estilo para os tópicos */
+.topic {
+  display: inline-block;
+  font-size: 24px;
+  color: #ffffff;
+  cursor: pointer;
+  border: 2px solid #010305;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px;
+  transition: background-color 1.0s;
+}
+
+.topic:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* estilo para as mensagens */
+.message {
+  display: none;
+  padding: 20px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  transition: transform 0.2s;
+}
+
+/* Mostra as mensagens ao passar o mouse sobre os tópicos */
+.topic:hover + .message {
+  display: block;
+}
