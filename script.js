@@ -1,3 +1,3 @@
 setTimeout(function() {
-    window.location.href = "SegundaTela.html";
+    window.location.href = "segundatela.html";
   }, 3000);
