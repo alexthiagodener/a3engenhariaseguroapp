@@ -1,5 +1,9 @@
 body {
   background: linear-gradient(90deg, #66c3d3, #a533b4);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  max-width: 1360px;
   text-align: center;
 }
 
