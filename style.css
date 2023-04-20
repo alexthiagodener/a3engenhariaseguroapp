@@ -6,7 +6,7 @@
   z-index: 1;
 }
 body {
-  background-image: url("backgroud.png");
+  background: linear-gradient(90deg, #66c3d3, #a533b4);
   background-size:cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
