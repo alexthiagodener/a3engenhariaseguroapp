@@ -20,7 +20,7 @@ ul {
   font-size: 24px;
   color: #ffffff;
   cursor: pointer;
-  border: 2px solid #010305;
+  border: 2px solid #E6BD37;
   border-radius: 20px;
   padding: 20px;
   margin: 20px;
@@ -28,16 +28,16 @@ ul {
 }
 
 .topic:hover {
-  background-color: #007bff;
-  color: #fff;
+  background-color: #007bff29;
+  color: #e6bd37;
 }
 
 /* estilo para as mensagens */
 .message {
   display: none;
   padding: 20px;
-  background-color: #007bff;
-  color: #fff;
+  background-color: #0E997D;
+  color: #dddacf;
   border-radius: 20px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   margin-bottom: 20px;
