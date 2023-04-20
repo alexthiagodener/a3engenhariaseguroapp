@@ -1,5 +1,5 @@
 body {
-    background-image: url("backgroud.png");
+    background: linear-gradient(90deg, #66c3d3, #a533b4);
     background-size:cover;
     display: flex;
     justify-content: center;
@@ -27,7 +27,7 @@ body {
   }
 
   button {
-    background-color: #007bff;
+    background-color: #1b8f8c;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;

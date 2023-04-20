@@ -1,5 +1,5 @@
 body {
-    background-image: url("backgroud.png");
+    background: linear-gradient(90deg, #66c3d3, #a533b4);
     background-size:cover;
     display: flex;
     justify-content: center;
@@ -9,8 +9,8 @@ body {
 
   .container {
     width: 500px;
-    padding: 30px;
-    border: 1px solid #ccc;
+    padding: 28px;
+    border: 1px solid #DBC24B;
     background-color: #fff;
   }
 
@@ -26,13 +26,13 @@ body {
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
-    border: 1px solid #ccc;
+    border: 1px solid #DBC24B;
     border-radius: 4px;
     box-sizing: border-box;
   }
 
   button {
-    background-color: #007bff;
+    background-color: #1b8f8c;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;

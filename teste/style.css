@@ -1,9 +1,9 @@
 body {
-  background: linear-gradient(90deg, #66c3d3, #a533b4);
+  background: linear-gradient(90deg, #1B8F8C, #a533b4);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  max-width: 1360px;
+  max-width: 1366px;
       
   }
   
@@ -13,10 +13,11 @@ body {
     margin: 0 auto;
     padding: 50px;
     border-radius: 10px;
+
   }
   
   h1 {
-    color: #66c3d3;
+    color: #1B8F8C;
     font-size: 3rem;
     text-align: center;
     margin-top: 50px;
@@ -37,7 +38,7 @@ body {
   }
   
   button {
-    background-color: #a533b4;
+    background-color: #1B8F8C;
     color: white;
     border: none;
     border-radius: 5px;
@@ -45,11 +46,15 @@ body {
     font-size: 1.2rem;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    text-align: center;
+    position: relative;
+    left: 335px;
   }
   
   button:hover {
-    background-color: #66c3d3;
+    background-color: #8F1474;
     text-align: center
+    
   }
   .quiz {
     display: flex;
@@ -61,16 +66,6 @@ body {
     width: 80%;
     margin-bottom: 2rem;
   }
-  .button {
-    background-color: #4CAF50; /* cor de fundo verde */
-    color: white; /* cor do texto branco */
-    padding: 10px 20px; /* espaçamento interno */
-    text-align: center; /* centralizar o texto */
-    text-decoration: none; /* remover sublinhado */
-    display: inline-block; /* exibir como bloco */
-    font-size: 16px; /* tamanho da fonte */
-    border-radius: 5px; /* borda arredondada */
-    border: none; /* remover borda */
-  }
+
   
   

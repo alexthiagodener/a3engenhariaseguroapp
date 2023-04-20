@@ -1,0 +1,156 @@
+/*primeira tela*/
+.Logo {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+}
+body {
+  background: linear-gradient(90deg, #66c3d3, #a533b4);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  max-width: 1360px;
+  margin: 0;
+  padding: 0;
+
+}
+.content {
+  text-align: center;
+  padding: 50px;
+  margin-top: 20%;
+  border-radius: 10px;
+  font-family: 'Estrangelo Adessa', sans-serif;  
+}
+
+h1 {
+  font-size: 3em;
+  margin: 0;
+  color: #ffffff;
+  text-shadow: 2px 2px #423d21;
+}
+.cabeçalho{
+  position: relative;
+  text-align: right;
+  
+}
+  menu {
+  position: absolute;
+  z-index: 2;
+  left: 825px;
+  top:0px;
+
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+  ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+  menu li {
+  list-style: none;
+  margin: 0 10px;
+}
+
+  a {
+  font-family: 'Estrangelo Adessa', sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 30px;
+  line-height: 27px;
+  text-align: right;
+  color: #f1f1f1;
+  text-decoration: none;
+  
+}
+
+  a:hover {
+  color: #000;
+}
+
+     /* A melhor maneira de ter */
+  .center-text {
+    position: absolute;
+    width: 777px;
+    height: 76px;
+    left: calc(50% - 777px/2 + 0.5px);
+    top: 100px;
+    font-family: 'Estrangelo Adessa', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 76px;
+    
+    /* identical to box height, or 108% */
+    text-align: center;
+    letter-spacing: 0.68px;
+    color: #FFFFFF;
+    font-family: 'Estrangelo Adessa', sans-serif;
+  }
+  /* Uma ferramenta gratuita para que todos tenham a capacidade de se proteger. Segurança nunca é demais. */
+  .infer-texte{
+    position: absolute;
+    width: 662px;
+    height: 55px;
+    left: calc(50% - 677px/2 + 0.5px);
+    top: 350px;
+    font-family: 'Estrangelo Adessa', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size:9px;
+    line-height: 27px;
+    /* or 130% */
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+    /* Botão "Teste e botão Dicas */
+
+    a.button, a.button2 {
+      display: inline-block;
+      background-color: #1B8F8C;
+      color: #DBC24B;
+      font-family: 'Estrangelo Adessa', sans-serif;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 15px;
+      font-size: 18px;
+      font-weight: bold;
+      position: relative;
+      top: 500px;
+      left: 500px;
+      text-shadow: 2px 2px #423d21;
+
+    }
+
+    a.button:hover, a.button2:hover {
+      background-color: #0062cc;
+      font-family: 'Estrangelo Adessa', sans-serif;
+    }   
+
+    .rodapé {
+      font-family: 'Estrangelo Adessa', sans-serif;
+      position: relative;
+      bottom: 0;
+      left: 3px;
+      background-color: #333;
+      color: #ece030;
+      padding: 0px;
+      font-size: 15px;
+      max-width: 1385px;
+      margin: 0;
+      top: 584px;
+      text-align: center;
+    }
