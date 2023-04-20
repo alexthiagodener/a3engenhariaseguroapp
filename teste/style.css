@@ -4,8 +4,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   max-width: 1360px;
-  text-align: center;
-    
+      
   }
   
   .container {
@@ -50,6 +49,7 @@ body {
   
   button:hover {
     background-color: #66c3d3;
+    text-align: center
   }
   .quiz {
     display: flex;
