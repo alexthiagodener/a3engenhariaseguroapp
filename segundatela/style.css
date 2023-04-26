@@ -1,156 +1,104 @@
-/*primeira tela*/
-.Logo {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  z-index: 1;
-}
+/*Estilo do fundo*/
 body {
-  background: linear-gradient(90deg, #66c3d3, #a533b4);
-  background-size:cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  max-width: 1360px;
+  background-image: linear-gradient(90deg, #66c3d3, #a533b4);
+}
+
+/* Estilos para o cabeçalho */
+.cabeçalho {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  padding: 10px;
+  margin: 0 auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para a logo */
+.Logo {
+  float: left;
+  margin-right: 20px;
+}
+
+/* Estilos para o menu */
+menu {
+  text-align: left;
+  font-family: 'Estrangelo Adessa', sans-serif;
+  color: #FFFFFF;
+
+}
+
+nav ul {
+  list-style: none;
   margin: 0;
   padding: 0;
+  font-family: 'Verdana', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #66c3d3;
 
 }
-.content {
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 1.2em;
+  text-decoration: none;
+  color: #fff;
+}
+nav ul li a:hover {
+  background-color: #fff;
+  color: #66c3d3;
+}
+
+nav ul li:first-child {
+  margin-left: 0;
+  font-family: 'Estrangelo Adessa', sans-serif;
+  color: #FFFFFF;
+}
+/* Estilos para o conteúdo da página */
+.conteiner {
+  min-height: 100vh; /* garante que o conteúdo ocupe toda a altura da página */
+  padding-bottom: 100px; /* garante que o conteúdo não fique atrás do rodapé */
+  
+}
+.conteiner {
+  /* outros estilos aqui */
   text-align: center;
-  padding: 50px;
-  margin-top: 20%;
-  border-radius: 10px;
-  font-family: 'Estrangelo Adessa', sans-serif;  
+  font-family: 'Estrangelo Adessa', sans-serif;
+  color: #FFFFFF;
 }
 
-h1 {
-  font-size: 3em;
-  margin: 0;
-  color: #ffffff;
+.infer-texte, .center-text, .button, .button2 {
+  text-align: center;
+}
+.button, .button2 {
+  background-color: #1B8F8C;
+  color: #DBC24B;
+  font-family: 'Estrangelo Adessa', sans-serif;
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin: 10px;
+  display: inline-block;
   text-shadow: 2px 2px #423d21;
 }
-.cabeçalho{
-  position: relative;
-  text-align: right;
-  
-}
-  menu {
-  position: absolute;
-  z-index: 2;
-  left: 780px;
-  top:0px;
-
-  }
-
-  nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-}
-
-  ul {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-  menu li {
-  list-style: none;
-  margin: 0 10px;
-}
-
-  a {
+a.button:hover, a.button2:hover {
+  background-color: #0062cc;
   font-family: 'Estrangelo Adessa', sans-serif;
-  font-style: normal;
-  font-weight: 200;
-  font-size: 30px;
-  line-height: 27px;
-  text-align: right;
-  color: #f1f1f1;
-  text-decoration: none;
-  
+}   
+
+
+/* Estilos para o rodapé */
+.rodapé {
+  position: absolute;
+  bottom: 0;
+  width: 98%;
+  height: 20px;
+  background-color: #333;
+  color: #e4e019;
+  margin: 0 auto;
+  text-align: center;
 }
-
-  a:hover {
-  color: #000;
-}
-
-     /* A melhor maneira de ter */
-  .center-text {
-    position: absolute;
-    width: 777px;
-    height: 76px;
-    left: calc(50% - 777px/2 + 0.5px);
-    top: 100px;
-    font-family: 'Estrangelo Adessa', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 19px;
-    line-height: 76px;
-    
-    /* identical to box height, or 108% */
-    text-align: center;
-    letter-spacing: 0.68px;
-    color: #FFFFFF;
-    font-family: 'Estrangelo Adessa', sans-serif;
-  }
-  /* Uma ferramenta gratuita para que todos tenham a capacidade de se proteger. Segurança nunca é demais. */
-  .infer-texte{
-    position: absolute;
-    width: 662px;
-    height: 55px;
-    left: calc(50% - 677px/2 + 0.5px);
-    top: 350px;
-    font-family: 'Estrangelo Adessa', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size:9px;
-    line-height: 27px;
-    /* or 130% */
-    text-align: center;
-    color: #FFFFFF;
-  }
-
-    /* Botão "Teste e botão Dicas */
-
-    a.button, a.button2 {
-      display: inline-block;
-      background-color: #1B8F8C;
-      color: #DBC24B;
-      font-family: 'Estrangelo Adessa', sans-serif;
-      padding: 10px 20px;
-      text-decoration: none;
-      border-radius: 15px;
-      font-size: 18px;
-      font-weight: bold;
-      position: relative;
-      top: 500px;
-      left: 500px;
-      text-shadow: 2px 2px #423d21;
-
-    }
-
-    a.button:hover, a.button2:hover {
-      background-color: #0062cc;
-      font-family: 'Estrangelo Adessa', sans-serif;
-    }   
-
-    .rodapé {
-      font-family: 'Estrangelo Adessa', sans-serif;
-      position: relative;
-      bottom: 0;
-      left: 3px;
-      background-color: #333;
-      color: #ece030;
-      padding: 0px;
-      font-size: 15px;
-      max-width: 1360px;
-      margin: 0;
-      top: 551px;
-      text-align: center;
-    }
