@@ -32,7 +32,7 @@ nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
-  font-family: 'Verdana', sans-serif;
+  font-family: 'Estrangelo Adessa', sans-serif;
   font-size: 16px;
   font-weight: bold;
   text-transform: uppercase;
@@ -93,12 +93,12 @@ a.button:hover, a.button2:hover {
 
 /* Estilos para o rodapé */
 .rodapé {
-  position: absolute;
+  position: fixed;
   bottom: 0;
-  width: 98%;
+  width: 100%;
   height: 20px;
   background-color: #333;
   color: #e4e019;
-  margin: 0 auto;
+  margin: 0;
   text-align: center;
 }
