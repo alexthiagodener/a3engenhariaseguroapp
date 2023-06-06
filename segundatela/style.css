@@ -225,4 +225,17 @@ a.button2:hover {
     padding: 20px;
   }
 }
+@media screen and (max-width: 320px) {
+  /* Estilos para telas com largura menor ou igual a 320px */
+  .conteiner {
+    padding: 20px;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* Estilos para telas com largura menor ou igual a 480px */
+  nav ul li {
+    margin: 5px 0;
+  }
+}
+
 
