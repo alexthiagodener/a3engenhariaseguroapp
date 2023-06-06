@@ -219,3 +219,10 @@ a.button2:hover {
     padding: 10px 20px;
   }
 }
+@media screen and (max-width: 320px) {
+  /* Estilos para telas com largura menor ou igual a 320px */
+  .conteiner {
+    padding: 20px;
+  }
+}
+
