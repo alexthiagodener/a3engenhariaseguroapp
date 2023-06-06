@@ -1,10 +1,15 @@
 body {
   background: linear-gradient(90deg, #66c3d3, #a533b4);
-  background-size:cover;
+  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   max-width: 1360px;
   text-align: center;
+}
+
+/* Mostra as mensagens ao passar o mouse sobre os tópicos */
+.topic:hover ~ .message {
+  display: block;
 }
 
 h1 {
@@ -15,16 +20,15 @@ h1 {
 
 ul {
   margin-top: 50px;
-  list-style: none; /* remove as bolinhas dos tópicos */
+  list-style: none;
 }
 
-/* estilo para os tópicos */
 .topic {
-  display:flow-root;
+  display: flow-root;
   font-size: 24px;
   color: #ffffff;
   cursor: pointer;
-  border: 2px solid #DBC24B;
+  border: 2px solid #dbc24b;
   border-radius: 20px;
   padding: 20px;
   margin: 20px;
@@ -33,14 +37,13 @@ ul {
 
 .topic:hover {
   background-color: #007bff29;
-  color: #DBC24B;
+  color: #dbc24b;
 }
 
-/* estilo para as mensagens */
 .message {
   display: none;
   padding: 20px;
-  background-color: #1B8F8C;
+  background-color: #1b8f8c;
   color: #dddacf;
   border-radius: 20px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
@@ -48,7 +51,17 @@ ul {
   transition: transform 0.2s;
 }
 
-/* Mostra as mensagens ao passar o mouse sobre os tópicos */
-.topic:hover + .message {
-  display: block;
+.message {
+  display: none;
+  padding: 20px;
+  background-color: #1b8f8c;
+  color: #dddacf;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  transition: transform 0.2s;
+  -webkit-transition: transform 0.2s; /* Prefixo para navegadores WebKit */
+  -moz-transition: transform 0.2s; /* Prefixo para navegadores Gecko (Firefox) */
+  -ms-transition: transform 0.2s; /* Prefixo para navegadores Microsoft (IE/Edge) */
+  -o-transition: transform 0.2s; /* Prefixo para navegadores Opera */
 }
