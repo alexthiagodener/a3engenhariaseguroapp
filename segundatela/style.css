@@ -237,5 +237,48 @@ a.button2:hover {
     margin: 5px 0;
   }
 }
-
+@media screen and (min-width: 481px) {
+  /* Estilos para telas com largura maior que 480px */
+  .conteiner {
+    padding: 50px;
+  }
+  
+  .infer-texte, .center-text, .button, .button2 {
+    text-align: center;
+  }
+  
+  .button, .button2 {
+    font-size: 20px;
+    padding: 10px 20px;
+  }
+  
+  /* Estilos para o cabeçalho */
+  .cabeçalho {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .Logo {
+    float: left;
+    margin-right: 20px;
+  }
+  
+  nav {
+    margin-top: 0;
+    text-align: left;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  /* Estilos para telas ultrawide (largura mínima de 1920 pixels) */
+  .conteiner {
+    max-width: 1600px; /* Defina uma largura máxima para o conteúdo na tela ultrawide */
+    margin: 0 auto; /* Centralize o conteúdo horizontalmente */
+  }
+}
 
